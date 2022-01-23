@@ -5,7 +5,7 @@ const messageData = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
     name: 'Женя',
     message: 'Так домашка получилась?',
-    time: '22:11',
+    time: (new Date().getHours() + ':' + new Date().getMinutes()).toString()
 }
 
 function HW1() {
